@@ -5,7 +5,7 @@ This sample shows:
 * Create and Validate the JWT token
 * Secure API using JWT Bearer token.
 
-`
+```
 Authentication Request:
 
 curl --location --request POST 'http://localhost:8080/api/v1/auth/authenticate' \
@@ -26,4 +26,4 @@ curl --location --request GET 'http://localhost:8080/api/v1/greet' \
 
 Response: Hello from our API
 
-`
+```
